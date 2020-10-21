@@ -43,6 +43,9 @@ body, html {
     line-height: 15px;
 }
 
+.lh-content {
+    line-height: 1.5 !important;
+}
 
 /* Top of the page */
 
@@ -198,6 +201,10 @@ td {
 
 /* =====Page Commercial===== */
 
+#sink-img {
+    float: right;
+    padding:2%;
+}
 
 
 /* =====Page Sewer Service===== */
