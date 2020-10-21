@@ -298,6 +298,19 @@ td {
 
 
 /* =====Page Testimonials===== */
+#centerQuote {
+    text-align: right;
+}
 
+.floatRight {
+    float: right;
+}
 
+.floatLeft {
+    float: left;
+}
+
+.cWidth {
+    width: fit-content;
+}
 
