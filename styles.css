@@ -280,8 +280,10 @@ td {
 
 
 /* =====Page Energy Saving===== */
-
-
+#drain-world {
+    float: right;
+    padding-left: 2%;
+}
 
 /* =====Page About Us===== */
 
