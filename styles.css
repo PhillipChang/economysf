@@ -44,6 +44,10 @@ body, html {
 }
 
 
+#lh-content {
+    line-height: 1.5;
+}
+
 /* Top of the page */
 
 #topbar {
@@ -286,6 +290,19 @@ td {
 
 
 /* =====Page Testimonials===== */
+#centerQuote {
+    text-align: right;
+}
 
+.floatRight {
+    float: right;
+}
 
+.floatLeft {
+    float: left;
+}
+
+.cWidth {
+    width: fit-content;
+}
 
