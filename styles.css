@@ -32,12 +32,12 @@ body, html {
     font-weight: 700;
 }
 
-#services-title {
+#page-title {
     color: red;
     font-weight: bolder;
 }
 
-#services-body1 {
+#page-body {
     margin-left: 10%;
     margin-right: 5%;
     line-height: 15px;
