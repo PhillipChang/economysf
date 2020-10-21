@@ -12,10 +12,10 @@ body, html {
     background-color: black;
 }
 
-#topbar {
-    background-color: yellow;
-    text-align: center;
-    font-size: small;
+.center {
+    display: block;
+    margin: 0% auto;
+    width: 50%;
 }
 
 .noMarginPad {
@@ -24,9 +24,19 @@ body, html {
     font-weight: bolder;
 }
 
+/* Top of the page */
+
+#topbar {
+    background-color: yellow;
+    text-align: center;
+    font-size: small;
+}
+
 #LowPrice {
     color:red;
 }
+
+/* NAVBAR */
 
 #menuIcon {
     line-height: 0;
@@ -39,31 +49,13 @@ body, html {
     padding-top: 10px;
 }
 
-.center {
-    display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin: 0% auto;
-    width: 50%;
-}
-
-#epsdPic {
-    padding: 5px 0px;
-}
-
-ul {
-    /* width: 70%; */
-    margin: auto;
-}
-
-li:hover {
-    border-radius: 5%;
-    border-bottom: 3px black solid;
-    background-image: linear-gradient(white, yellow, white);
-}
-
 #navBar {
     padding-bottom: 0%;
+}
+
+#navUL {
+    /* width: 70%; */
+    margin: auto;
 }
 
 .navBtns {
@@ -77,6 +69,17 @@ li:hover {
     padding: 0% 10px 0% 10px;
     margin: 0%;
 }
+
+.navBtns:hover {
+    border-radius: 5%;
+    border-bottom: 3px black solid;
+    background-image: linear-gradient(white, yellow, white);
+}
+
+/* =====Page Home===== */
+
+
+/* Tables */
 
 .locField {
     line-height: 0.9;
@@ -109,6 +112,24 @@ td {
     border-width: 1px !important;
 }
 
+/* Content Images */
+#why-wait-img {
+    width: 80%;
+    margin-left: 30px;
+}
+
+#fast-free-img {
+    width:100%;
+    margin-left: -16%;
+    padding: 0;
+}
+
+#bbb-img {
+    width:20%;
+}
+
+/* Bottom of the page */
+
 #footer {
     padding: 0% 10%;
 }
@@ -122,7 +143,7 @@ td {
     font-size: 0.50vw;
 }
 
-#bbb {
+#bbb-footer {
     padding-left: 15px;
     padding-right: 20px;
     height: 40px;
@@ -131,3 +152,36 @@ td {
 .footerImg {
     height: 22px;
 }
+
+/* =====Page Services===== */
+
+
+
+/* =====Page Residential===== */
+
+
+
+/* =====Page Commercial===== */
+
+
+
+/* =====Page Sewer Service===== */
+
+
+
+/* =====Page Drain Cleaning===== */
+
+
+
+/* =====Page Energy Saving===== */
+
+
+
+/* =====Page About Us===== */
+
+
+
+/* =====Page Testimonials===== */
+
+
+
