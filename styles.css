@@ -258,6 +258,10 @@ td {
 
 /* =====Page Residential===== */
 
+#residential-bathroom-img {
+    float: right;
+    padding-left: 3%;
+}
 
 
 /* =====Page Commercial===== */
