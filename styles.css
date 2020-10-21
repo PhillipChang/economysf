@@ -43,7 +43,7 @@ body, html {
 }
 
 .lh-content {
-    line-height: 1.5 !important;
+    line-height: 1.5;
 }
 
 #lh-content {
@@ -276,11 +276,17 @@ td {
 
 
 /* =====Page Sewer Service===== */
-
+#page-body-sewer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
 /* =====Page Drain Cleaning===== */
-
+#drain-sink {
+    float: right;
+    padding-left: 2%;
+}
 
 
 /* =====Page Energy Saving===== */
