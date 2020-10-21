@@ -44,7 +44,7 @@ body, html {
 }
 
 
-#lh-content {
+.lh-content {
     line-height: 1.5;
 }
 
@@ -292,6 +292,10 @@ td {
 /* =====Page Testimonials===== */
 #centerQuote {
     text-align: right;
+}
+
+#thirdQuote {
+    margin: 3% 0%;
 }
 
 .floatRight {
