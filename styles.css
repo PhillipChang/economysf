@@ -38,7 +38,7 @@ body, html {
 }
 
 #page-body {
-    margin-left: 10%;
+    margin-left: 8.5%;
     margin-right: 5%;
 }
 
@@ -289,12 +289,19 @@ td {
 
 
 /* =====Page Testimonials===== */
-#centerQuote {
+#firstQuote {
+    margin-top: 2%;
+    background-color: #D1DDF7;
+}
+
+#secondQuote {
     text-align: right;
+    background-color: #D6FFD3;
 }
 
 #thirdQuote {
     margin: 3% 0%;
+    background-color: #F3F9D7;
 }
 
 .floatRight {
