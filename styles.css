@@ -42,6 +42,10 @@ body, html {
     margin-right: 5%;
 }
 
+.lh-content {
+    line-height: 1.5;
+}
+
 
 .lh-content {
     line-height: 1.5;
@@ -192,7 +196,7 @@ td {
 
 @media only screen and (max-width: 1600px) {
    #copyright {
-       font-size: 0.6vw;
+       font-size: 0.7vw;
    }
 }
 
@@ -267,10 +271,17 @@ td {
 
 /* =====Page Commercial===== */
 
+#sink-img {
+    float: right;
+    padding:2%;
+}
 
 
 /* =====Page Sewer Service===== */
-
+#page-body-sewer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
 /* =====Page Drain Cleaning===== */
@@ -281,14 +292,17 @@ td {
 
 
 /* =====Page Energy Saving===== */
-
-
+#drain-world {
+    float: right;
+    padding-left: 2%;
+}
 
 /* =====Page About Us===== */
 
 
 
 /* =====Page Testimonials===== */
+
 #firstQuote {
     margin-top: 2%;
     background-color: #D1DDF7;
