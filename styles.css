@@ -42,6 +42,9 @@ body, html {
     margin-right: 5%;
 }
 
+.lh-content {
+    line-height: 1.5 !important;
+}
 
 #lh-content {
     line-height: 1.5;
@@ -266,6 +269,10 @@ td {
 
 /* =====Page Commercial===== */
 
+#sink-img {
+    float: right;
+    padding:2%;
+}
 
 
 /* =====Page Sewer Service===== */
