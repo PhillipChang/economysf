@@ -41,8 +41,9 @@ body, html {
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0% auto;
     width: 50%;
 }
 
@@ -55,18 +56,19 @@ ul {
     margin: auto;
 }
 
-.navBtns {
-    text-align: center;
-    background-color: #feff01;
-}
-
 li:hover {
     border-radius: 5%;
     border-bottom: 3px black solid;
     background-image: linear-gradient(white, yellow, white);
 }
 
+#navBar {
+    padding-bottom: 0%;
+}
+
 .navBtns {
+    text-align: center;
+    background-color: #feff01;
     border-color: gray;
     border-width: 0.5px;
     border-radius: 5%;
@@ -80,22 +82,31 @@ li:hover {
     line-height: 0.9;
     padding: 0;
     margin: 8px;
-    
+    font-size:12px;
 }
 
 .locNum {
     font-weight: bolder;
-    font-size: large;
+    font-size: 36px;
 }
 
 #locTable {
     padding: 0% 10%;
 }
 
+tr {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px !important;
+}
+
 td {
     text-align: center;
     width: fit-content;
     background-color: yellow;
+    font-family:Arial, Helvetica, sans-serif;
+    border-color:black !important;
+    border-width: 1px !important;
 }
 
 #footer {
@@ -114,9 +125,9 @@ td {
 #bbb {
     padding-left: 15px;
     padding-right: 20px;
+    height: 40px;
 }
 
-.imgResize {
-    width: 25%;
-    height: 25%;
+.footerImg {
+    height: 22px;
 }
