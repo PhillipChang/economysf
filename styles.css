@@ -40,9 +40,11 @@ body, html {
 #page-body {
     margin-left: 10%;
     margin-right: 5%;
-    line-height: 15px;
 }
 
+.lh-content {
+    line-height: 1.5;
+}
 
 /* Top of the page */
 
@@ -267,7 +269,10 @@ td {
 
 
 /* =====Page Sewer Service===== */
-
+#page-body-sewer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
 /* =====Page Drain Cleaning===== */
