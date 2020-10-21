@@ -46,6 +46,9 @@ body, html {
     line-height: 1.5;
 }
 
+#lh-content {
+    line-height: 1.5;
+}
 /* Top of the page */
 
 #topbar {
@@ -191,7 +194,7 @@ td {
 
 @media only screen and (max-width: 1600px) {
    #copyright {
-       font-size: 0.6vw;
+       font-size: 0.7vw;
    }
 }
 
@@ -266,6 +269,10 @@ td {
 
 /* =====Page Commercial===== */
 
+#sink-img {
+    float: right;
+    padding:2%;
+}
 
 
 /* =====Page Sewer Service===== */
