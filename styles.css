@@ -1,3 +1,122 @@
-#bs4d {
-    color: #f17878;
+.container {
+    height: 100%;
+    width: auto;
+    background-color: white;
+    padding: 0;
+}
+
+body, html {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#topbar {
+    background-color: yellow;
+    text-align: center;
+    font-size: small;
+}
+
+.noMarginPad {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+#LowPrice {
+    color:red;
+}
+
+#menuIcon {
+    line-height: 0;
+    font-size: 1;
+}
+
+#navToggler {
+    line-height: 0;
+    font-size: 1;
+    padding-top: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#epsdPic {
+    padding: 5px 0px;
+}
+
+ul {
+    /* width: 70%; */
+    margin: auto;
+}
+
+.navBtns {
+    text-align: center;
+    background-color: #feff01;
+}
+
+li:hover {
+    border-radius: 5%;
+    border-bottom: 3px black solid;
+    background-image: linear-gradient(white, yellow, white);
+}
+
+.navBtns {
+    border-color: gray;
+    border-width: 0.5px;
+    border-radius: 5%;
+    border-style: inset;
+    font-weight: 700;
+    padding: 0% 10px 0% 10px;
+    margin: 0%;
+}
+
+.locField {
+    line-height: 0.9;
+    padding: 0;
+    margin: 8px;
+    
+}
+
+.locNum {
+    font-weight: bolder;
+    font-size: large;
+}
+
+#locTable {
+    padding: 0% 10%;
+}
+
+td {
+    text-align: center;
+    width: fit-content;
+    background-color: yellow;
+}
+
+#footer {
+    padding: 0% 10%;
+}
+
+#footer-b {
+    padding: 0% 10%;
+    align-content: center;
+}
+
+#copyright {
+    font-size: 10px;
+}
+
+#bbb {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.imgResize {
+    width: 25%;
+    height: 25%;
 }
