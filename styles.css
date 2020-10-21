@@ -271,7 +271,10 @@ td {
 
 
 /* =====Page Drain Cleaning===== */
-
+#drain-sink {
+    float: right;
+    padding-left: 2%;
+}
 
 
 /* =====Page Energy Saving===== */
