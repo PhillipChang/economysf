@@ -40,7 +40,6 @@ body, html {
 #page-body {
     margin-left: 10%;
     margin-right: 5%;
-    line-height: 15px;
 }
 
 
@@ -176,10 +175,6 @@ td {
     align-content: center;
 }
 
-#copyright {
-    font-size: 0.80vw;
-}
-
 #bbb-footer {
     padding-left: 15px;
     padding-right: 20px;
@@ -190,9 +185,75 @@ td {
     height: 22px;
 }
 
+#copyright {
+    font-size: 0.50vw;
+}
+
+@media only screen and (max-width: 1600px) {
+   #copyright {
+       font-size: 0.7vw;
+   }
+}
+
+@media only screen and (max-width: 1300px) {
+    #copyright {
+        font-size: 0.8vw;
+    }
+ }
+ 
+@media only screen and (max-width: 1200px) {
+    #copyright {
+        font-size: 0.5vw;
+    }
+ }
+
 
 /* =====Page Services===== */
+.pBold {
+    font-weight: 700;
+}
 
+#services-title {
+    color: red;
+    font-weight: bolder;
+}
+
+#services-body1 {
+    margin-left: 10%;
+    margin-right: 5%;
+    line-height: 15px;
+}
+
+.service-cols-left-padding-main {
+    padding-left: 11%;
+}
+
+.service-cols-left-padding {
+    margin-right: 3%;
+}
+
+#service-pipes-img {
+    float: right;
+    width: 25%;
+}
+
+#service-tank-img {
+    /* float: right; */
+    width: 80%;
+    /* margin-top: -50px; */
+    /* padding-bottom: 5%; */
+}
+
+@media only screen and (max-width: 600px) {
+    .service-cols-left-padding {
+        padding-left: 11%;
+        
+    }
+    #service-tank-img {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
 
 
 /* =====Page Residential===== */
